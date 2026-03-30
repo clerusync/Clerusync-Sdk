@@ -1,6 +1,6 @@
 #  Clerusync SDK
 
-Official Node.js SDK for accessing the Clerusync Investment API — including stocks, forex trends with AI insights, economic calendar data and financial news. 
+Official Node.js SDK for accessing the Clerusync Investment API including stocks, forex trends with AI insights, economic calendar data and financial news. 
 
 ---
 
@@ -135,6 +135,11 @@ CLERUSYNC_INVESTMENT_API_KEY=your_key_here
 ```
 ### You can use packages like [dotenv](https://www.npmjs.com/package/dotenv) to load this in your project:
 
+#  JavaScript
+```
+require("dotenv").config();
+```
+#  TypeScript
 ```
 import dotenv from "dotenv";
 dotenv.config();
