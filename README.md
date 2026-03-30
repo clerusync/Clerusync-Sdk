@@ -164,4 +164,4 @@ Pull requests are welcome. If you would like to recommend new changes, please op
 
 ##  Support
 
-If you run into issues, open an issue on [GitHub](https://www.npmjs.com/package/clerusync-sdk)  or contact info@clerusync.com
+If you run into issues, open an issue on [GitHub](https://github.com/clerusync/Clerusync-Sdk)  or contact info@clerusync.com
