@@ -7,7 +7,7 @@ Official Node.js SDK for accessing the Clerusync Investment API including stocks
 ##  Installation
 
 ```bash
-npm install clerusync
+npm install clerusync-sdk
 ```
 
 ---
