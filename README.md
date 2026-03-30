@@ -19,7 +19,7 @@ You must provide your API key when initialising the SDK.
 #  JavaScript
 
 ```js
-const ClerusyncSDK = require("clerusync");
+const ClerusyncSDK = require("clerusync-sdk");
 
 const api = new ClerusyncSDK("YOUR_API_KEY");
 ```
@@ -27,7 +27,7 @@ const api = new ClerusyncSDK("YOUR_API_KEY");
 #  TypeScript
 
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI("YOUR_API_KEY");
 ```
@@ -75,7 +75,7 @@ console.log(news);
 ## Functional Example
 
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI("YOUR_API_KEY");
 
@@ -123,7 +123,7 @@ setx CLERUSYNC_INVESTMENT_API_KEY "your_key_here"
 ```
 # Usage:
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI(process.env.CLERUSYNC_INVESTMENT_API_KEY!);
 ```
@@ -144,7 +144,7 @@ require("dotenv").config();
 import dotenv from "dotenv";
 dotenv.config();
 
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI(process.env.CLERUSYNC_INVESTMENT_API_KEY!);
 ```
