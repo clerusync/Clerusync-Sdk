@@ -3,7 +3,7 @@ const axios = require("axios");
 class ClerusyncAPI {
   /**
    * Create a new API client
-   * @param {string} apiKey - Your API key
+   * @param {string} apiKey  
    */
   constructor(apiKey) {
     if (!apiKey) throw new Error("API key is required");

@@ -1,13 +1,13 @@
 #  Clerusync SDK
 
-Official Node.js SDK for accessing the Clerusync Investment API — including stocks, forex trends with AI insights, economic calendar data and financial news. 
+Official Node.js SDK for accessing the Clerusync Investment API including stocks, forex trends with AI insights, economic calendar data and financial news. 
 
 ---
 
 ##  Installation
 
 ```bash
-npm install clerusync
+npm install clerusync-sdk
 ```
 
 ---
@@ -19,7 +19,7 @@ You must provide your API key when initialising the SDK.
 #  JavaScript
 
 ```js
-const ClerusyncSDK = require("clerusync");
+const ClerusyncSDK = require("clerusync-sdk");
 
 const api = new ClerusyncSDK("YOUR_API_KEY");
 ```
@@ -27,7 +27,7 @@ const api = new ClerusyncSDK("YOUR_API_KEY");
 #  TypeScript
 
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI("YOUR_API_KEY");
 ```
@@ -75,7 +75,7 @@ console.log(news);
 ## Functional Example
 
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI("YOUR_API_KEY");
 
@@ -123,7 +123,7 @@ setx CLERUSYNC_INVESTMENT_API_KEY "your_key_here"
 ```
 # Usage:
 ```js
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI(process.env.CLERUSYNC_INVESTMENT_API_KEY!);
 ```
@@ -135,11 +135,16 @@ CLERUSYNC_INVESTMENT_API_KEY=your_key_here
 ```
 ### You can use packages like [dotenv](https://www.npmjs.com/package/dotenv) to load this in your project:
 
+#  JavaScript
+```
+require("dotenv").config();
+```
+#  TypeScript
 ```
 import dotenv from "dotenv";
 dotenv.config();
 
-import { ClerusyncAPI } from "clerusync";
+import { ClerusyncAPI } from "clerusync-sdk";
 
 const api = new ClerusyncAPI(process.env.CLERUSYNC_INVESTMENT_API_KEY!);
 ```
@@ -159,4 +164,4 @@ Pull requests are welcome. If you would like to recommend new changes, please op
 
 ##  Support
 
-If you run into issues, open an issue on [GitHub](https://www.npmjs.com/package/clerusync)  or contact info@clerusync.com
+If you run into issues, open an issue on [GitHub](https://github.com/clerusync/Clerusync-Sdk)  or contact info@clerusync.com
