@@ -36,6 +36,11 @@ class ClerusyncAPI {
     return this._get("/stocks");
   }
 
+  /** Get Price Movements */
+  async getPriceMovement() {
+    return this._get("/pricemovement");
+  }
+
   /** Get Forex data with AI explanation */
   async getForex(from, to) {
     if (!from || !to) throw new Error("Both 'from' and 'to' currencies are required");
