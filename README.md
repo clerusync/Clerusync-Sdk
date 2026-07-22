@@ -45,6 +45,15 @@ console.log(stocks);
 
 ---
 
+### Get Price Movements
+
+```js
+const pricemovement = await api.getPriceMovement();
+console.log(pricemovement);
+```
+
+---
+
 ###  Get Forex + AI Insight
 
 ```js
@@ -83,6 +92,9 @@ const api = new ClerusyncAPI("YOUR_API_KEY");
   try {
     const stocks = await api.getStocks();
     console.log("Stocks:", stocks);
+
+    const pricemovement = await api.getPriceMovement();
+    console.log("Price Movement:", pricemovement);
 
     const forex = await api.getForex("currency_code_1", "currency_code_2");
     console.log("Forex:", forex);
