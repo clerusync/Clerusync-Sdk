@@ -1,6 +1,6 @@
 {
   "name": "clerusync-sdk",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Node.js SDK for Clerusync Investment APIs (Stocks, Forex, Economic Calendar, News)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
